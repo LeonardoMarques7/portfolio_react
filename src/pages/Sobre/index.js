@@ -92,6 +92,10 @@ function Sobre() {
                     conhecimentos e conexões na área.
                 </p>
                 <p className="text-sobre mt-2">
+                    Sou estudante de <b>ciências da computação</b> na UNIP,
+                    começando em janeiro/2025 e me formo em dezembro de 2028.
+                </p>
+                <p className="text-sobre mt-2">
                     Além dos códigos no GitHub, busco equilíbrio entre estudos e
                     momentos de descontração. Apreciar séries é uma pausa
                     revigorante em meio à intensidade da programação. Meu
