@@ -209,6 +209,10 @@ a {
     text-align: start;
 }
 
+.sobre-content b {
+    color: #1b61c9;
+}
+
 .input-box {
     display: flex;
     align-self: center;

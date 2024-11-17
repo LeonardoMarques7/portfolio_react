@@ -74,34 +74,20 @@ function Sobre() {
             <div className="sobre-content mt-2 mb-2">
                 <h1 className="title-sobre">Sobre</h1>
                 <p className="text-sobre">
-                    Sou o Leonardo Marques, apaixonado por programação e
-                    desenvolvimento front-end. Tenho seis irmãos e aprendi desde
-                    cedo a valorizar as relações familiares. Estudo na Etec
-                    Fernando Prestes, estou sempre imerso em projetos no GitHub
-                    e busco transformar minha paixão em uma carreira promissora
-                    na área de Ciências da Computação. Adoro aprender, assistir
-                    séries para relaxar e estou determinado a crescer e evoluir
-                    continuamente na minha jornada tecnológica.
+                    Sou <b>Leonardo Marques</b>, apaixonado por programação e desenvolvimento front-end.  
+                    Estou sempre em busca de <b>aprendizado</b> e crescimento na área de tecnologia. Sou formado em  
+                    Técnico em Desenvolvimento de Sistemas pela <b>Etec Fernando Prestes</b>, onde aprimorei minhas habilidades práticas.  
+                    Em janeiro de 2025, vou começar minha graduação em Ciências da Computação na UNIP.
                 </p>
                 <p className="text-sobre mt-2">
-                    Minha jornada na programação começou como um fascínio que
-                    rapidamente se transformou em habilidade sólida. Com foco em
-                    desenvolvimento front-end, mergulho fundo em linguagens como
-                    React, JavaScript e PHP. Minha escola, a Etec Fernando
-                    Prestes, é um ambiente inspirador onde expando meus
-                    conhecimentos e conexões na área.
+                    Minha jornada na programação começou como um fascínio que rapidamente se transformou em habilidade sólida.  
+                    Com foco em desenvolvimento front-end, mergulho fundo em linguagens como <b>React</b>, JavaScript e PHP.  
+                    Minha escola, a Etec Fernando Prestes, foi um ambiente inspirador onde expando meus <b>conhecimentos</b> e conexões na área.
                 </p>
                 <p className="text-sobre mt-2">
-                    Sou estudante de <b>ciências da computação</b> na UNIP,
-                    começando em janeiro/2025 e me formo em dezembro de 2028.
-                </p>
-                <p className="text-sobre mt-2">
-                    Além dos códigos no GitHub, busco equilíbrio entre estudos e
-                    momentos de descontração. Apreciar séries é uma pausa
-                    revigorante em meio à intensidade da programação. Meu
-                    objetivo é claro: transformar minha paixão por tecnologia em
-                    uma carreira promissora, sempre em constante crescimento e
-                    aprendizado.
+                    Além dos códigos no <b>GitHub</b>, busco equilíbrio entre estudos e momentos de descontração.  
+                    Apreciar séries é uma pausa revigorante em meio à intensidade da programação. Meu objetivo é claro:  
+                    transformar minha <b>paixão por tecnologia</b> em uma carreira promissora, sempre em constante crescimento e aprendizado.
                 </p>
                 <br />
                 <p>Técnologias que tenho aprendido:</p>
