@@ -12,6 +12,7 @@ import {
     faJs,
     faPhp,
     faCss3,
+    faGitAlt
 } from "@fortawesome/free-brands-svg-icons";
 
 function Sobre() {
@@ -109,10 +110,7 @@ function Sobre() {
                     </a>
                     <a href="https://getbootstrap.com/">
                         <div className="box">
-                            <FontAwesomeIcon
-                                icon={faBootstrap}
-                                className="icon"
-                            />
+                            <FontAwesomeIcon icon={faBootstrap} className="icon"/>
                         </div>
                     </a>
                     <a href="https://www.php.net/">
@@ -123,6 +121,11 @@ function Sobre() {
                     <a href="https://react.dev/">
                         <div className="box">
                             <FontAwesomeIcon icon={faReact} className="icon" />
+                        </div>
+                    </a>
+                    <a href="https://git-scm.com/">
+                        <div className="box">
+                        <FontAwesomeIcon icon={faGitAlt} className="icon"/>
                         </div>
                     </a>
                 </div>
