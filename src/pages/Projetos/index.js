@@ -96,7 +96,7 @@ function Projetos() {
                     <div className="carroseul">
                         <a
                             className="card"
-                            href="http://blog-fp.wuaze.com/?i=1"
+                            href="https://blog-fp.infinityfreeapp.com/"
                         >
                             <img src={foto1} alt="" className="img-card" />
                             <span>Blog</span>
