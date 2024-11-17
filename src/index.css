@@ -471,3 +471,26 @@ a {
 .card {
     color: #333;
 }
+
+/* Animação para entrada dos cards */
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.card {
+    color: #333;
+    animation: fadeInScale 1s ease-in-out;
+}
+
+/* Adicionando efeito ao passar o mouse */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+}
