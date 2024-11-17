@@ -5,6 +5,7 @@ import foto3 from "../assets/img3.png";
 import foto4 from "../assets/img4.png";
 import foto5 from "../assets/img5.png";
 import foto6 from "../assets/img6.png";
+import foto7 from "../assets/img7.png";
 
 import { Link } from "react-router-dom";
 
@@ -53,7 +54,10 @@ function Projetos() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <FontAwesomeIcon icon={faGithub} className="icon" />
+                            <FontAwesomeIcon 
+                                icon={faGithub} 
+                                className="icon"
+                            />
                         </a>
                     </div>
                     <div className="icons-rede">
@@ -135,6 +139,13 @@ function Projetos() {
                         >
                             <img src={foto6} alt="" className="img-card" />
                             <span>Form WebCarSell</span>
+                        </a>
+                        <a
+                            className="card"
+                            href="https://github.com/LeonardoMarques7/Projeto_Pok-dex"
+                        >
+                            <img src={foto7} alt="" className="img-card" />
+                            <span>Pokédex</span>
                         </a>
                     </div>
                 </div>
