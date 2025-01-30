@@ -432,30 +432,28 @@ a {
 .container-ling {
     margin-top: 5px;
     display: flex;
+    flex-wrap: wrap; /* Garante que os ícones quebrem linha se necessário */
     gap: 1rem;
     font-size: 2rem;
     color: #1b61c9;
+    justify-content: start; /* Ou 'center', dependendo do alinhamento desejado */
+    align-items: center;
 }
 
 .container-ling .box {
     border: 1px solid #002a85;
     border-radius: 5px;
     width: 50px;
-    vertical-align: middle;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.5s;
-    height: 50px;
 }
 
 .container-ling .box:hover {
-    color: #eee;
-    cursor: pointer;
     background-color: #002a85;
+    color: #fff;
 }
 
-.container-ling a {
-    color: #1b61c9;
-    text-decoration: none;
-}
+

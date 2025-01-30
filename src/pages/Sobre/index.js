@@ -73,12 +73,21 @@ function Sobre() {
                 </div>
             </div>
             <div className="sobre-content mt-2 mb-2">
+                <div className="container-video">
+                    <iframe 
+                        className="video"
+                        src="https://www.youtube.com/embed/RXRaZzDK8F0?si=iujxs2EeBxAOGu6e" 
+                        title="YouTube video player" 
+                        style={{ border: 0 }}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowFullScreen
+                    ></iframe>
+                </div>
                 <h1 className="title-sobre">Sobre</h1>
                 <p className="text-sobre">
-                    Sou <b>Leonardo Marques</b>, apaixonado por programação e desenvolvimento front-end.  
-                    Estou sempre em busca de <b>aprendizado</b> e crescimento na área de tecnologia. Sou formado em  
-                    Técnico em Desenvolvimento de Sistemas pela <b>Etec Fernando Prestes</b>, onde aprimorei minhas habilidades práticas.  
-                    Em janeiro de 2025, vou começar minha graduação em Ciências da Computação na UNIP.
+                    Sou <b>Leonardo Marques</b>, apaixonado por programação e desenvolvimento front-end. Atualmente, sou <b>estudante de Ciência da Computação na UNIP</b>,
+                    onde busco constantemente expandir meus conhecimentos na área de tecnologia. Além disso, sou formado em Técnico em Desenvolvimento de Sistemas pela <b>
+                    Etec Fernando Prestes</b>, onde aprimorei minhas habilidades práticas. Estou sempre em busca de <b>aprendizado</b> e crescimento profissional.
                 </p>
                 <p className="text-sobre mt-2">
                     Minha jornada na programação começou como um fascínio que rapidamente se transformou em habilidade sólida.  

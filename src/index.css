@@ -167,6 +167,14 @@ a {
     margin-left: 250px;
 }
 
+.video {
+    max-width: 560px;
+    min-height: 250px;
+    width: 100%;
+    height: 100%;
+    
+}
+
 /* Contato */
 
 .contato-content-sobre {
@@ -434,14 +442,6 @@ a {
 
 /* Container linguagens */
 
-.container-ling {
-    margin-top: 5px;
-    display: flex;
-    gap: 1rem;
-    font-size: 2rem;
-    color: #1b61c9;
-}
-
 .container-ling .box {
     border: 1px solid #002a85;
     border-radius: 5px;
@@ -464,9 +464,11 @@ a {
     color: #1b61c9;
     text-decoration: none;
 }
+
 a {
     text-decoration: none;
 }
+
 
 .card {
     color: #333;
