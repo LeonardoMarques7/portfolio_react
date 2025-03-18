@@ -15,6 +15,10 @@ import {
     faGitAlt
 } from "@fortawesome/free-brands-svg-icons";
 
+import {
+    faWater,
+} from "@fortawesome/free-solid-svg-icons"
+
 function Sobre() {
     return (
         <div className="user-content-sobre">
@@ -120,6 +124,11 @@ function Sobre() {
                     <a href="https://getbootstrap.com/">
                         <div className="box">
                             <FontAwesomeIcon icon={faBootstrap} className="icon"/>
+                        </div>
+                    </a>
+                    <a href="https://tailwindcss.com/">
+                        <div className="box">
+                            <FontAwesomeIcon icon={faWater} className="icon"/>
                         </div>
                     </a>
                     <a href="https://www.php.net/">
