@@ -128,7 +128,7 @@ function Sobre() {
                     </a>
                     <a href="https://tailwindcss.com/">
                         <div className="box">
-                            TailwindCSS
+                            <FontAwesomeIcon icon={faWater} className="icon"/>
                         </div>
                     </a>
                     <a href="https://www.php.net/">
