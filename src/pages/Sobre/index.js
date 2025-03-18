@@ -141,6 +141,11 @@ function Sobre() {
                             <FontAwesomeIcon icon={faReact} className="icon" />
                         </div>
                     </a>
+                    <a href="https://dart.dev/">
+                        <div className="box">
+                            <FontAwesomeIcon icon={fa-dart-lang} className="icon" />
+                        </div>
+                    </a>
                     <a href="https://git-scm.com/">
                         <div className="box">
                         <FontAwesomeIcon icon={faGitAlt} className="icon"/>
