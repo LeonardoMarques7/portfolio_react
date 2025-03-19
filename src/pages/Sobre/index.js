@@ -144,7 +144,7 @@ function Sobre() {
                     </a>
                     <a href="https://dart.dev/">
                         <div className="box">
-                            <img href={imageDart} />
+                            <img href={imageDart} className="icon" />
                         </div>
                     </a>
                     <a href="https://git-scm.com/">
