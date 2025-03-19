@@ -1,6 +1,6 @@
 import fotoLeonardo from "../assets/image.png";
 import imageDart from "../assets/dart-lang-brands.png";
-import imageTailWind from "../assets/tailwind-css.png";
+import imageTailwind from "../assets/tailwind-css.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -17,9 +17,6 @@ import {
     faGitAlt,
 } from "@fortawesome/free-brands-svg-icons";
 
-import {
-    faWater,
-} from "@fortawesome/free-solid-svg-icons"
 
 function Sobre() {
     return (
@@ -130,7 +127,7 @@ function Sobre() {
                     </a>
                     <a href="https://tailwindcss.com/">
                         <div className="box">
-                            <img href={imageTailWind} className="icon" />
+                            <img src={imageTailwind} className="icon icon__image" />
                         </div>
                     </a>
                     <a href="https://www.php.net/">
@@ -145,12 +142,12 @@ function Sobre() {
                     </a>
                     <a href="https://dart.dev/">
                         <div className="box">
-                            <img href={imageDart} className="icon" />
+                            <img src={imageDart} className="icon icon__image" />
                         </div>
                     </a>
                     <a href="https://git-scm.com/">
                         <div className="box">
-                        <FontAwesomeIcon icon={faGitAlt} className="icon"/>
+                            <FontAwesomeIcon icon={faGitAlt} className="icon"/>
                         </div>
                     </a>
                 </div>

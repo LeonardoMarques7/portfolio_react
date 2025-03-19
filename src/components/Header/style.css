@@ -166,6 +166,10 @@ a {
     margin-left: 250px;
 }
 
+.icon {
+    width: 35px;
+}
+
 /* Contato */
 
 .contato-content-sobre {
@@ -456,4 +460,11 @@ a {
     color: #fff;
 }
 
+.container-ling .box:hover {
+    background-color: #002a85;
+    color: #fff;
+}
 
+.container-ling .box:hover .icon__image {
+    filter: invert(100%) brightness(200%) grayscale(100%) contrast(100%);
+}
