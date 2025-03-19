@@ -8,11 +8,12 @@ import {
     faLinkedin,
     faHtml5,
     faReact,
+    faDartLang,
     faBootstrap,
     faJs,
     faPhp,
     faCss3,
-    faGitAlt
+    faGitAlt,
 } from "@fortawesome/free-brands-svg-icons";
 
 import {
@@ -143,7 +144,7 @@ function Sobre() {
                     </a>
                     <a href="https://dart.dev/">
                         <div className="box">
-                            <FontAwesomeIcon icon={fa-dart-lang} className="icon" />
+                            <FontAwesomeIcon icon={faDartLang} className="icon" />
                         </div>
                     </a>
                     <a href="https://git-scm.com/">
