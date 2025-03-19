@@ -1,4 +1,5 @@
 import fotoLeonardo from "../assets/image.png";
+import imageDart from "../assets/dart-lang-brands.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,7 +9,6 @@ import {
     faLinkedin,
     faHtml5,
     faReact,
-    faDartLang,
     faBootstrap,
     faJs,
     faPhp,
@@ -144,7 +144,7 @@ function Sobre() {
                     </a>
                     <a href="https://dart.dev/">
                         <div className="box">
-                            <FontAwesomeIcon icon={faDartLang} className="icon" />
+                            <img href={imageDart} />
                         </div>
                     </a>
                     <a href="https://git-scm.com/">
