@@ -6,6 +6,7 @@ import foto4 from "../assets/img4.png";
 import foto5 from "../assets/img5.png";
 import foto6 from "../assets/img6.png";
 import foto7 from "../assets/img7.png";
+import foto8 from "../assets/img8.png";
 
 import { Link } from "react-router-dom";
 
@@ -98,6 +99,13 @@ function Projetos() {
                 </p>
                 <div className="cards-container">
                     <div className="carroseul">
+                        <a
+                            className="card"
+                            href="https://projeto-music.onrender.com/"
+                        >
+                            <img src={foto8} alt="" className="img-card" />
+                            <span>Player de Música</span>
+                        </a>
                         <a
                             className="card"
                             href="https://blog-fp.infinityfreeapp.com/"
