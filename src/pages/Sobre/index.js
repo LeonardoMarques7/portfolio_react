@@ -1,5 +1,6 @@
 import fotoLeonardo from "../assets/image.png";
-import imageDart from "../assets/dart-lang-brands.svg";
+import imageDart from "../assets/dart-lang-brands.png";
+import imageTailWind from "../assets/tailwind-css.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -129,7 +130,7 @@ function Sobre() {
                     </a>
                     <a href="https://tailwindcss.com/">
                         <div className="box">
-                            <FontAwesomeIcon icon={faWater} className="icon"/>
+                            <img href={imageTailWind} className="icon" />
                         </div>
                     </a>
                     <a href="https://www.php.net/">
